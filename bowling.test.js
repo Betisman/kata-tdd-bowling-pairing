@@ -71,4 +71,15 @@ describe('Bowling test',() => {
     };
     expect(game.getScore()).to.eql(22);
   });
+
+  it('should play a game with two consecutive strikes', () => {
+    game.roll(10);
+    game.roll(10);
+    game.roll(4);
+    game.roll(2);
+    for(i = 0; i < 15; i++) {
+      game.roll(0);
+    };
+    expect(game.getScore()).to.eql(42);
+  });
 });
