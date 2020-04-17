@@ -1,0 +1,26 @@
+{
+  "name": "kata-tdd-bowling-pairing",
+  "version": "1.0.0",
+  "main": "bowling.js",
+  "dependencies": {
+    "expect.js": "^0.3.1"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  },
+  "scripts": {
+    "test": "mocha ./bowling.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Betisman/kata-tdd-bowling-pairing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Betisman/kata-tdd-bowling-pairing/issues"
+  },
+  "homepage": "https://github.com/Betisman/kata-tdd-bowling-pairing#readme",
+  "description": ""
+}
